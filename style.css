@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 95%;
+  margin:auto auto;
+}
+
+
+body {
+  background: url(фон.jpg) no-repeat center center fixed #000; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95%;
+  width: 1200px;
+  margin:auto auto;
+  font-family: "Arial", sans-serif;
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+}
+
+.gif{
+  position:absolute;
+  top: 0;
+  left:auto;
+  display: none;
+  height : 50%;
+  width:auto;
+}
+
+.game {
+  transform-style: preserve-3d;
+  perspective: 500px;
+  height: 100%;
+  margin:auto auto;
+}
+
+.sucsess{
+  display: block;
+  width: 26%; height: 8%;
+  position:absolute;
+  top: 46%;
+  left: 37%;
+  padding: 20px 30px;
+  font-size: 20px;
+  border:none;
+  background: #4d4d4d;
+  background: linear-gradient(green, grey);
+  border-radius: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    width: 100%;          
+  }
+  
+  .wrap{
+    padding: 30px 10px;
+    margin-top:10%;
+  }
+ 
+  
+  .sucsess{
+    padding: 5px;
+    height: 20%;
+    width: 90%;
+    font-size: 7vh;
+    border-radius: 100px;
+    top: 50%;
+    left: 5%;
+    }  
+  }
+
+@media only screen and (max-width: 992px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    width: 100%;          
+  }
+  
+  .wrap{
+    height: 80%;
+    margin-top:30%;
+  }
+  
+  .sucsess{
+    padding: 5px;
+    height: 20%;
+    width: 90%;
+    font-size: 7vh;
+    border-radius: 100px;
+    top: 50%;
+    left: 5%;
+    }  
+  }
+
+
+@media only screen and (max-width: 756px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    width: 100%;     
+    height: 100%;     
+  }
+  
+  .wrap{
+    height: 80%;
+    margin-top:30%;
+  }
+  
+  .sucsess{
+    padding: 5px;
+    height: 20%;
+    width: 90%;
+    font-size: 7vh;
+    border-radius: 100px;
+    top: 50%;
+    left: 5%;
+    }  
+  }
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    height: 100%;   
+    width: 100%;          
+  }
+
+.wrap{
+  height: 80%;
+  margin-top:30%;
+}
+
+.sucsess{
+  padding: 5px;
+  height: 20%;
+  width: 90%;
+  font-size: 7vh;
+  border-radius: 100px;
+  top: 50%;
+  left: 5%;
+  }  
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    height: 100%;   
+    width: 100%;          
+  }
+
+.wrap{
+  height: 72%;
+  margin-top:14%;
+}
+
+.sucsess{
+  padding: 5px;
+  height: 20%;
+  width: 90%;
+  font-size: 7vh;
+  border-radius: 100px;
+  top: 50%;
+  left: 5%;
+  }  
+}
+
+@media only screen and (max-width : 320px) {
+  body {
+    background: url('i.gif');
+    background-size: cover;
+    background-position: center center;      
+    background-repeat: no-repeat;      
+    background-attachment: fixed;   
+    z-index: 0;
+    height: 100%;
+    width: 100%;          
+  }
+
+  
+    .wrap{
+      height: 80%;
+      margin-top:30%;
+    }
+ 
+  
+ 
+
+  .sucsess{
+  padding: 5px;
+  height: 20%;
+  width: 90%;
+  font-size: 7vh;
+  border-radius: 100px;
+  top: 50%;
+  left: 5%;
+  }  
+  }
